@@ -1,0 +1,22 @@
+.wrapper {
+  margin-bottom: 20px;
+}
+
+.button {
+  padding: 8px 14px;
+  margin-right: 10px;
+  border: 1px solid #333;
+  background-color: #fff;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: 0.2s ease;
+}
+
+.button:hover {
+  background-color: #eee;
+}
+
+.reset {
+  background-color: #f8d7da;
+  border-color: #dc3545;
+}
