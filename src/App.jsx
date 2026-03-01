@@ -8,7 +8,7 @@ function App() {
   const totalFeedback = good + neutral + bad;
 
   const positivePercentage =
-    totalFeedback === 0 ? 0 : Math.round((good / totalFeedback) * 100);
+    totalFeedback === 0 ? 0 : Math.round((good / totalFeedback) * 100));
 
   return (
     <div style={{ padding: "40px", fontFamily: "Arial" }}>
