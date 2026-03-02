@@ -1,8 +1,6 @@
-import styles from "./Feedback.module.css";
-
 function Feedback({ good, neutral, bad, total, positive }) {
   return (
-    <div className={styles.box}>
+    <div>
       <p>Good: {good}</p>
       <p>Neutral: {neutral}</p>
       <p>Bad: {bad}</p>
